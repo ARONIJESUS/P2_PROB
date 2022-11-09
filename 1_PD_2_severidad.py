@@ -2,7 +2,7 @@
 """
 PRÁCTICA DIRIGIDA N°2 MODELOS DE FRECUENCIA Y SEVERIDAD
 
-*FRECUENCIA
+*SEVERIDAD
 Created on Tue Sep 27 17:41:20 2022
 
 @Integrantes: 
@@ -20,15 +20,11 @@ import matplotlib.pyplot as plt
 from random import random
 
 
-# ### 1
-
 # In[2]:
 
-
-### Se genera el vector de 5,000 filas cada uno con distribución Pareto y Gamma
+### 1. Se genera el vector de 5,000 filas cada uno con distribución Pareto y Gamma
 ###(para el caso de grupo de 2 integrantes, elija una de ellas y solo genere un vector de 5000 filas).
 # Se genera el vector con distribución Pareto utilizando el método de la inversa
-from random import random
 lst = []
  
 for i in range(5000):
